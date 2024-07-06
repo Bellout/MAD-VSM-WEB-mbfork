@@ -1,5 +1,103 @@
 # Changelog
 
+## [3.0.0](https://github.com/Bellout/MAD-VSM-WEB-mbfork/compare/v2.3.0...v3.0.0) (2024-07-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* Migrate to React Flow ([#630](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/630))
+
+### Features
+
+* **access:** add multiple users to a process quickly by supplying comma separated string ([#269](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/269)) ([a69b090](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/a69b09068f1ea4300fc8e97ff95c7da58f33d040)), closes [#268](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/268)
+* add labels to a process ([60ef48b](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/60ef48b1381b1ee2b1085c6019d9fe906ffa86dc)), closes [#159](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/159)
+* Add R to PQI's (R for Risk) ([1ae6f43](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/1ae6f43b159e049b2f98c213f10dceb992e1384b)), closes [#155](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/155)
+* Card tooltip ([#737](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/737)) ([89bea20](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/89bea20ea2c41466089ae557629c403f09a29e0d))
+* Categorization page ([#251](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/251)) ([3069642](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/30696422e22460aa09a207ae079776c7b3e73c9b))
+* **changelog:** add changelog page ([1afb860](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/1afb860aeae9695dfabbaf8cbf6c8ed9085f7fb2))
+* Click to rename project title ([#489](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/489)) ([d74062f](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/d74062fe1256dbdba4863e9041f0397df908ade1))
+* create new vsm based on an existing one ([b3a5aaf](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/b3a5aafb0eb37fa25115088ec3cd353f41a48108)), closes [#117](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/117)
+* Custom domain names for dev, test and qa ([#541](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/541)) ([2999e03](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/2999e03bb483c23bf99b9d7f4513c5aff12260eb))
+* Deletable Edges ([#763](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/763)) ([a516a13](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/a516a1369050b1ed8764a6e7db88b19728684806))
+* display rhombus shape for choice nodes in minimap ([#742](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/742)) ([9625cb9](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/9625cb90390c605bec6f9e6865c69748fba2aef4))
+* display zoom level next to controls ([#747](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/747)) ([03a93e2](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/03a93e234b788103893d3e4725af407af3ccf30a))
+* **duplicate:** add link to old project as metadata ([6039e7e](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/6039e7e72e9bbc6b5b99f263a6bc9beb6d426897))
+* Edge labels ([#743](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/743)) ([cae915c](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/cae915ce4a9a7e69c1b894854d3997eb58c9c3ed))
+* enhanced front page design ([f38a817](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/f38a81744dfb5d9314842da744d355008cb867b2))
+* favourite a process from the canvas ([#334](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/334)) ([da46f49](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/da46f496cd0d958c281f3cb2380fc9064f250067)), closes [#252](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/252)
+* highlight links in cards and pqir and tooltips ([#746](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/746)) ([eacd032](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/eacd0322718818c0737c6c067b183937be67ba3b))
+* improve discoverability on the frontpage ([4b59760](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/4b59760481901318ede1053c28ff32ad8b0a0b7f)), closes [#113](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/113)
+* improve filter by users ([#351](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/351)) ([f8de72a](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/f8de72af1d9212e2f17e83e7d970191fca28be73)), closes [#229](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/229)
+* links in pqirs ([#734](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/734)) ([f0e6128](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/f0e61287e46cc33e2ba6e2bc277aa5154d8ab5f2))
+* Migrate to React Flow ([#630](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/630)) ([796c6aa](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/796c6aa4318d27c44a8e5978f8a5975b9c43dd3a))
+* Minimap ([#735](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/735)) ([7d87f12](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/7d87f125d23b82d9f9b84dfdbc00eb8741457afc))
+* Process cards link behaviour ([#677](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/677)) ([7bf5dbc](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/7bf5dbc7c062cdb28fcc6f43695f1536389a2c00)), closes [#279](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/279)
+* redesign process card ([5648643](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/56486434ddab435f9ef4fa573ef9df420ac1c0fb)), closes [#219](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/219)
+* right click and drag around in canvas ([#403](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/403)) ([e88f726](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/e88f726c9bfeef35296d8d98d714aa4a463547fc)), closes [#399](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/399)
+* service-message banner ([d771b93](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/d771b9358734cc691ca2497e0a872df6ce3aa27b)), closes [#224](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/224)
+* solve PQIRs ([#347](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/347)) ([a5c0e11](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/a5c0e1158f1bf44de6512519986c7c5955a1e273)), closes [#165](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/165)
+* Support for links in cards ([#397](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/397)) ([6772901](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/6772901dd6390636c3e423c406c2326c15c4c937)), closes [#175](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/175)
+* to-be process ([#270](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/270)) ([fdb0062](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/fdb006282c24ae4232f0ce5c64edfa6f0b30fc19)), closes [#192](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/192)
+* verify what change is currently running ([#370](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/370)) ([469bc8c](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/469bc8c6740ec9ed5f40c745f8e7a14097ba9428)), closes [#275](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/275)
+* version history ([2fda5e2](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/2fda5e2d448abeeb1835bb4a74fc402fdf12f9ab)), closes [#154](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/154)
+* Waiting card description ([#722](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/722)) ([bc326b0](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/bc326b0a067ac30c87e5259d74c6b0641ccf8116))
+
+
+### Bug Fixes
+
+* Add link prompt visual bug ([#496](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/496)) ([b05f9ed](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/b05f9edba4ec54618e6a19a165c31e03aa5ad0b9))
+* Card text truncation ([#720](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/720)) ([82fc982](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/82fc9822c2df5181527074b56015cdba4a0f6954))
+* center plus sign in add button ([cf1b74b](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/cf1b74bc9a245c0590f753fa564b6ee303956d17)), closes [#237](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/237)
+* close scrim, fix ts errors ([#764](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/764)) ([00ed2b6](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/00ed2b62f2ca723335df7bf29a7c4180b228b55c))
+* **deps:** Patch vulnerabilities ([#586](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/586)) ([1f4bed4](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/1f4bed4be70ac5b43fe5dfb3c46a8ef29d2e2817)), closes [#585](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/585)
+* **deps:** Patch vulnerabilities ([#610](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/610)) ([64c07cb](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/64c07cba8ba1be3a3754fc6c335dd2c75222ae66)), closes [#609](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/609)
+* **deps:** Patch vulnerabilities ([#618](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/618)) ([968f45d](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/968f45d62576062a908abdb118ec3ca7685360f6)), closes [#616](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/616)
+* **deps:** Patch vulnerabilities ([#626](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/626)) ([ddb44fa](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/ddb44faeaa67606a0467907170e055136ec14150)), closes [#624](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/624)
+* **deps:** Patch vulnerabilities ([#652](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/652)) ([3cabfb4](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/3cabfb4e46d31714bf452a4d11fceb1dca194d9f)), closes [#651](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/651)
+* **deps:** Upgrade axios from 0.25.0 to 1.6.1 ([#634](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/634)) ([ca581e3](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/ca581e3acf3dd192b6cd6728116a095433ab2748)), closes [#633](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/633)
+* Display 0 duration on card ([#672](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/672)) ([66e8b3c](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/66e8b3c131b1b92976014a5ef07264df06eb53e6)), closes [#671](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/671)
+* display user accesses and last updated on front page ([#384](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/384)) ([6704515](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/67045150c54ca3edef4ed5e7bd0c9b74227ef856))
+* **duplicate:** "Title (Duplicate of xx)" instead of "Duplicate of Title (xx)" ([ef98e79](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/ef98e79988c258cfdf4f9f88599b34f349090b52)), closes [#117](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/117)
+* **durationcomponent:** fix erros when updating time on a card ([c151820](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/c151820db9b139fd341c725b6eeaa647ed1806ab)), closes [#111](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/111)
+* **duration:** do not send request when no change ([015876a](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/015876a1caa363221531eeac07a30f4e98c641b2))
+* edges no longer disappearing when creating hidden nodes ([#761](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/761)) ([0f8ec0e](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/0f8ec0ebad2f558b89c36f31a65750916d0562c4))
+* Invalidate reactQuery ([#505](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/505)) ([84c6bfc](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/84c6bfc3f788b863914bcbd4d45206d586ef229a)), closes [#411](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/411)
+* Missing loading spinner when creating new project ([#394](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/394)) ([b32dbf7](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/b32dbf7e879b001652207978363e7dfae488cc63)), closes [#388](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/388)
+* Missing logo ([#715](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/715)) ([06070fa](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/06070fafa6548f3f2226a63c0547e07f529641a3))
+* only show my projects in the myProjects tab ([#287](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/287)) ([baa2b0d](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/baa2b0d6700a4acbade0ccd5c9a045573fec04db)), closes [#286](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/286)
+* ordering of processes ([#379](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/379)) ([5afaaa0](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/5afaaa039ef5c83b6ab84dcb9b7972f1864c7be6)), closes [#378](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/378)
+* Owner cannot delegate roles from landing page ([#425](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/425)) ([78b1dea](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/78b1deaf70891c3b128f1cf77e95c7ec876d88bc)), closes [#410](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/410)
+* package.json & yarn.lock to reduce vulnerabilities ([85a7444](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/85a74446af1ad48db53ad37a783948870452ba39))
+* package.json & yarn.lock to reduce vulnerabilities ([#14](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/14)) ([4d7bb47](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/4d7bb470395c19ae12fa7217dcff123d535ac052))
+* Remove duration bug ([#753](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/753)) ([4edc93d](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/4edc93db75872adbca7d98089487c35ac308f615))
+* removed duplicate zoom level ([#750](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/750)) ([5bbbb5e](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/5bbbb5e4826239ed2eeddaed265f9b82f23c534f))
+* **service-message:** Hide the service-message-banner when there is no active message. ([62295f4](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/62295f480d5e2781f06a2684233b7cded506a373)), closes [#259](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/259)
+* **service-message:** service-message should not be indented, but fill the full screen ([#267](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/267)) ([132e61a](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/132e61a93bdb0d517800ba49dab80996e9c50687)), closes [#256](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/256)
+* Set minimum duration ([#490](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/490)) ([#493](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/493)) ([2c130b9](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/2c130b966972de1599629926f401425b709811b9))
+* show correct hover text when disconnected ([be57192](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/be571928b1ac537b3e03016a326e87e83e3aeb64))
+* **snackmessage:** display notifications on top over the sidesheet ([6266b5b](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/6266b5b68cfa8f1fb45354dc7e007ef371edc1f1)), closes [#130](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/130)
+* support searching with special characters like & (url-encode search queries) ([#292](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/292)) ([7bf8aaa](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/7bf8aaaaa7574fa39d1085ba2104b45b7ba4b618)), closes [#291](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/291)
+* Test environment ([#731](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/731)) ([ba31814](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/ba31814111a67a6e864bc5d3afd7291c2484db90))
+* unlinking error ([bbbf339](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/bbbf3391809aaae19e3062d800e8578daadaa9ea))
+* upgrade @azure/msal-browser from 2.13.1 to 2.14.0 ([989d66d](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/989d66d143fc20570a0c6f601d2cc73195e53f80))
+* upgrade @equinor/eds-core-react from 0.10.1 to 0.11.0 ([94f1c06](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/94f1c06ef83ae62d5332fa53bff3ca569d64c1dd))
+* upgrade @typescript-eslint/eslint-plugin from 4.21.0 to 4.22.0 ([96ec10c](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/96ec10ceb91c59dfab87eed422413d2537ab52dc))
+* upgrade @typescript-eslint/parser from 4.21.0 to 4.22.0 ([2fac2e2](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/2fac2e224a58b0fa517a390cd2ca666a50138d38))
+* upgrade @typescript-eslint/parser from 4.22.0 to 4.22.1 ([7f8d9de](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/7f8d9de30cbfc5b11cf31c416d8413db97cab58a))
+* Upgrade dependencies ([#702](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/702)) ([e6ca777](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/e6ca7772335fb69b163945c0d14c75d6ffde5e02)), closes [#701](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/701)
+* Upgrade dependencies ([#745](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/745)) ([f67563a](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/f67563a0ba137e780c1f7232ba249033ffa67f5d)), closes [#744](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/744)
+* Upgrade dependencies ([#766](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/766)) ([a37a28e](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/a37a28e35db60cc0c74c2bbbd31c024d13fe262d))
+* upgrade next from 10.1.1 to 10.1.2 ([731b6ef](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/731b6ef5d07d92742da94f0c127c930f264d7203))
+* upgrade next from 10.2.1 to 10.2.3 ([d59b01a](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/d59b01a0f027e3350e61f507b117708d0f9330e5))
+* Upgrade next, react, typescript and eds ([#658](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/658)) ([5f7dc4e](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/5f7dc4e48929a9c61c0298189bce1713cc513b4a)), closes [#567](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/567)
+* upgrade sass from 1.32.8 to 1.32.11 ([7adb0f8](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/7adb0f82de491c3af57f8c055497e2bf02dd58a8))
+* url-encode the search query ([#278](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/278)) ([b09785c](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/b09785c3666b56b333b852b3a4182e1e4b1da849)), closes [#277](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/277)
+
+
+### Reverts
+
+* Invalidate reactQuery ([#528](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/528)) ([cc8bd47](https://github.com/Bellout/MAD-VSM-WEB-mbfork/commit/cc8bd476bc512efd776a12c86afa7aaf843870e4)), closes [#527](https://github.com/Bellout/MAD-VSM-WEB-mbfork/issues/527)
+
 ## [2.3.0](https://github.com/equinor/flyt/compare/v2.2.0...v2.3.0) (2024-06-19)
 
 ### Features
